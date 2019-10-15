@@ -1,0 +1,7 @@
+export const ResCode = {
+  SUCCESS: {CODE: "00000", MSG: "成功"},
+  ERROR: {CODE: "99999", MSG: "系统异常，请稍后再试！"}
+};
+export const CacheKey = {
+  LOGIN_USER: "LOGIN_USER_INFO"
+};

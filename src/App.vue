@@ -16,7 +16,12 @@
 
   export default {
     name: 'App',
-    components: {Header, Left, Footer}
+    components: {Header, Left, Footer},
+    methods: {
+      test() {
+        alert(this.ResCode.ERROR.MSG);
+      }
+    }
   }
 </script>
 

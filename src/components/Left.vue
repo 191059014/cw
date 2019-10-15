@@ -8,12 +8,19 @@
         <router-link to="/role">角色管理</router-link>
       </li>
     </ul>
+    <button @click="test">click</button>
   </div>
 </template>
 
 <script>
   export default {
-    name: "Left"
+    name: "Left",
+    methods: {
+      test() {
+        console.info(this.ResCode);
+        alert(this.ResCode.ERROR.MSG);
+      }
+    }
   }
 </script>
 

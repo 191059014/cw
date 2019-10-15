@@ -3,7 +3,7 @@ import Router from 'vue-router'
 import User from '@/view/User'
 import Role from '@/view/Role'
 
-Vue.use(Router)
+Vue.use(Router);
 
 export default new Router({
   routes: [

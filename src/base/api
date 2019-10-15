@@ -1,0 +1,7 @@
+import http from 'http'
+
+// 登录
+export const login = params => {
+  return http.post(`controller/login/login`, params, callback);
+};
+
